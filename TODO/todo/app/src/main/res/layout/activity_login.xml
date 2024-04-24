@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".ui.login.LoginActivity">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/ic_blue_bg"
+        android:layerType="none">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="175dp"
+            android:layout_height="197dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="TODO"
+            android:scaleType="centerInside"
+            android:scaleX="0.75"
+            android:scaleY="0.75"
+            app:srcCompat="@drawable/ic_icon_log"
+            tools:ignore="VectorDrawableCompat" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/blue_border_rounded_color">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="15dp"
+            android:layout_height="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/email" />
+
+        <EditText
+            android:id="@+id/add_heading"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:hint="@string/prompt_email"
+            android:inputType="textEmailAddress"
+            android:selectAllOnFocus="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/blue_border_rounded_color">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="15dp"
+            android:layout_height="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/password" />
+
+        <EditText
+            android:id="@+id/password1"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:hint="@string/prompt_password"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:selectAllOnFocus="true" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/login"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/blue_fill_rounded_color"
+        android:onClick="onClick"
+        android:text="@string/action_sign_in"
+        android:textSize="18sp"
+        app:backgroundTint="@color/blue" />
+
+    <Button
+        android:id="@+id/registration"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/blue_fill_rounded_color"
+        android:onClick="onClick"
+        android:text="@string/action_reg_in"
+        android:textSize="18sp"
+        app:backgroundTint="@color/blue" />
+
+</LinearLayout>

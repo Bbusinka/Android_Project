@@ -1,0 +1,4 @@
+#Wed Jun 09 00:44:03 EEST 2021
+base.0=C\:\\Users\\User\\Desktop\\todo_without_settings\\todo\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

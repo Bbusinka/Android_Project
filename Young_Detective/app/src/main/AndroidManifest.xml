@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.youngdetective">
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.YoungDetective">
+        <activity android:name=".rezult" android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="com.example.youngdetective.rezult" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".vhod_reg"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="com.example.youngdetective.vhod_reg" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".lvl5"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="com.example.youngdetective.lvl5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> <!-- -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45; -->
+        <activity
+            android:name=".lvl4"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="com.example.youngdetective.lvl4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> <!-- -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45; -->
+        <activity
+            android:name=".lvl3"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="com.example.youngdetective.lvl3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> <!-- -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45; -->
+        <activity
+            android:name=".lvl2"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="com.example.youngdetective.lvl2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> <!-- -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45; -->
+        <activity
+            android:name=".lvl1"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="com.example.youngdetective.lvl1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> <!-- -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45; -->
+        <activity
+            android:name=".Menu"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="com.example.youngdetective.Menu" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> <!-- -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45; -->
+        <activity
+            android:name=".MainActivity"
+            android:noHistory="true"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

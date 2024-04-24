@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "418306212735",
+    "project_id": "todo-dip",
+    "storage_bucket": "todo-dip.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418306212735:android:8e92052a61ac018fa0504a",
+        "android_client_info": {
+          "package_name": "com.example.todo_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "418306212735-e9vqd50j26n4kkhj83dqt4eo943i7f9j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMy9P6YS5GFsS6BZjXl7C4W20Jqv015FQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "418306212735-e9vqd50j26n4kkhj83dqt4eo943i7f9j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

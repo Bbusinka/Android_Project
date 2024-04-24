@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">418306212735-e9vqd50j26n4kkhj83dqt4eo943i7f9j.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">418306212735</string>
+    <string name="google_api_key" translatable="false">AIzaSyBMy9P6YS5GFsS6BZjXl7C4W20Jqv015FQ</string>
+    <string name="google_app_id" translatable="false">1:418306212735:android:8e92052a61ac018fa0504a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBMy9P6YS5GFsS6BZjXl7C4W20Jqv015FQ</string>
+    <string name="google_storage_bucket" translatable="false">todo-dip.appspot.com</string>
+    <string name="project_id" translatable="false">todo-dip</string>
+</resources>

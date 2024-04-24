@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CustomProgress" parent="Theme.Material3.Dark.NoActionBar">
+    </style>
+
+    <style name="Theme.CustomProgress" parent="Base.Theme.CustomProgress" />
+</resources>
